@@ -1,0 +1,28 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/* body */
+body{background-color:#fafafa;}
+
+/* display / width / height / padding / background-color / font-size / color / font-weight / text-align / line-height(%) / vertical-align */
+
+/* reset */
+*{margin:0;padding:0;font-family: 'Noto Sans KR', sans-serif;color:#2c251e;letter-spacing:-0.03em;}
+a{text-decoration:none;}
+table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:640px;background-color:#fff;border:1px solid #dedede;}
+img{vertical-align:top;border:0;height:18px;}
+
+.mail_wrap{width:100%;}
+.mail{width:640px;margin:0 auto;}
+
+
+table thead th{width:100%;padding:87px 0 7px;}
+
+.content{text-align: center}
+.content .description{padding:30px 30px 83px;font-size:15px;color:#000;line-height:22px;}
+.content .description > p.help {color:#7B7FA8;padding:30px 0 0;}
+.content .description > p.help a {color:#7B7FA8;text-decoration:underline;}
+.content .description > p.step {color:#000;padding:44px 100px 0;text-align:left;}
+
+.button_area{padding:85px 0 0;}
+.button_area .btn_link{display:inline-block;padding:13.5px 25px;background-color:#727CF5;border-radius:10px;font-size:16px;font-weight:700;line-height:23px;color:#fff;text-align:center;cursor:pointer;min-width:300px;}
