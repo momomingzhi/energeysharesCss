@@ -2,27 +2,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
 /* body */
-body{background-color:#fafafa;}
+body{background-color:#fff;}
 
 /* display / width / height / padding / background-color / font-size / color / font-weight / text-align / line-height(%) / vertical-align */
 
 /* reset */
-*{margin:0;padding:0;font-family: 'Noto Sans KR', sans-serif;color:#2c251e;letter-spacing:-0.03em;}
-a{text-decoration:none;}
-table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:640px;background-color:#fff;border:1px solid #dedede;}
-img{vertical-align:top;border:0;height:18px;}
 
-.mail_wrap{width:100%;}
+table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:600px; height:773px;background-color:#CEEDFF; display: flex;flex-direction: column;align-items: center;}
+
+.mail_wrap{display:flex;flex-direction:column;align-items:center;width:100%;}
 .mail{width:640px;margin:0 auto;}
 
 
-table thead th{width:100%;padding:87px 0 7px;}
+table thead th{width:100%;}
 
-.content{text-align: center}
+
+.content{
+    background-color:#fff;display:flex;margin:24px auto;justify-content:center;width:552px;height: 414px;
+}
+.content_detail{
+    width:95%;height: 90%;background-color:#fff;margin:24px 0 0;
+}
+.content .text{
+    font-weight: 400; font-size: 16px; color: #363636;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.button_area{align-items: center; border-bottom:1px solid #ECECEC;display: flex; justify-content: center;padding:0px 0 30px;}
+.button_area .btn_link{display:inline-block;padding:13.5px 10px;background-color:#23C164;border-radius:6px;font-size:16px;font-weight:700;line-height:23px;color:#fff;text-align:center;cursor:pointer;min-width:300px;}
+
+.content .text_link{
+    font-size: 16px; font-weight: 400; overflow:hidden; word-wrap:break-word;
+}
 .content .description{padding:30px 30px 83px;font-size:15px;color:#000;line-height:22px;}
-.content .description > p.help {color:#7B7FA8;padding:30px 0 0;}
-.content .description > p.help a {color:#7B7FA8;text-decoration:underline;}
-.content .description > p.step {color:#000;padding:44px 100px 0;text-align:left;}
 
-.button_area{padding:85px 0 0;}
-.button_area .btn_link{display:inline-block;padding:13.5px 25px;background-color:#727CF5;border-radius:10px;font-size:16px;font-weight:700;line-height:23px;color:#fff;text-align:center;cursor:pointer;min-width:300px;}
+
+tr td img{
+    width: 600px;
+    height: 344px;
+}
+.footer{
+    align-items: center;
+    display: flex;
+    height: 150px;
+    margin:35px 0;
+    width: 600px;
+    flex-direction: column;
+}
+.footer .help{
+    color:#A7A7A7;
+    margin: 31.99px 0;
+    height: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    width: 538px;
+}
+.footer .right{
+    color: #A7A7A7;
+    margin:20px 0;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+}
