@@ -13,7 +13,12 @@ table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:600px; 
 .mail_wrap{display:flex;flex-direction:column;align-items:center;width:100%;}
 .mail{width:640px;margin:0 auto;}
 
+.logo{
+    width: 640px;
+    display: flex;
+    justify-content: center;
 
+}
 table thead th{width:100%;}
 
 
