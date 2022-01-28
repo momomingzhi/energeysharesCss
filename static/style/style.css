@@ -8,17 +8,21 @@ body{background-color:#fff;}
 
 /* reset */
 
-table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:600px; height:773px;background-color:#CEEDFF;}
+table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:600px; height:773px;background-color:#fff;margin:0 auto;}
 
 .mail_wrap{width:100%;}
 .mail{width:640px;margin:0 auto;}
-
 .logo{
-    width: 600px;
+    margin:0 auto;
 
 }
+.logos {
+    width: 600px;
+}
 table thead th{width:100%;}
-
+.body {
+    background-color: #CEEDFF;
+}
 
 .content{
     background-color:#fff;margin:24px auto;width:552px;height: 414px;
@@ -26,17 +30,22 @@ table thead th{width:100%;}
 .content_detail{
     width:95%;height: 90%;background-color:#fff;margin:24px 0 0;
 }
+.content_box {
+    width: 95%;
+    margin: 0 0 0 32px;
+}
 .content .text{
     font-weight: 400; font-size: 16px; color: #363636;
 }
 
-h3{
+.hi_name{
     font-size: 22px;
     font-weight: 500;
+    padding:43px 0 0;
 }
 
-.button_area{border-bottom:1px solid #ECECEC;padding:0px 0 30px;}
-.button_area .btn_link{display:block;padding:13.5px 10px;background-color:#23C164;border-radius:6px;font-size:16px;font-weight:700;line-height:23px;color:#fff;text-align:center;cursor:pointer;min-width:300px;}
+.button_area{border-bottom:1px solid #ECECEC;padding:0px 0 30px; width:100%;}
+.button_area .btn_link{display:block;padding:13.5px 15px;background-color:#23C164;border-radius:6px;font-size:16px;font-weight:700;line-height:23px;color:#fff;text-align:center;cursor:pointer;width:300px;margin:0 auto;}
 
 .content .text_link{
     font-size: 16px; font-weight: 400; overflow:hidden; word-wrap:break-word;
@@ -65,6 +74,7 @@ tr td img{
 .footer .right{
     color: #A7A7A7;
     margin:20px 0;
+    text-align: center;
     font-weight: 400;
     font-size: 14px;
 
