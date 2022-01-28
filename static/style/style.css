@@ -8,7 +8,7 @@ body{background-color:#fff;}
 
 /* reset */
 
-table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:600px; height:773px;background-color:#CEEDFF; display: flex;flex-direction: column;align-items: center;}
+table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:600px; height:773px;background-color:#CEEDFF;}
 
 .mail_wrap{width:100%;}
 .mail{width:640px;margin:0 auto;}
