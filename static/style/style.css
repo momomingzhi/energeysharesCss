@@ -10,20 +10,18 @@ body{background-color:#fff;}
 
 table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:600px; height:773px;background-color:#CEEDFF; display: flex;flex-direction: column;align-items: center;}
 
-.mail_wrap{display:flex;flex-direction:column;align-items:center;width:100%;}
+.mail_wrap{width:100%;}
 .mail{width:640px;margin:0 auto;}
 
 .logo{
-    width: 640px;
-    display: flex;
-    justify-content: center;
+    width: 600px;
 
 }
 table thead th{width:100%;}
 
 
 .content{
-    background-color:#fff;display:flex;margin:24px auto;justify-content:center;width:552px;height: 414px;
+    background-color:#fff;margin:24px auto;width:552px;height: 414px;
 }
 .content_detail{
     width:95%;height: 90%;background-color:#fff;margin:24px 0 0;
@@ -37,8 +35,8 @@ h3{
     font-weight: 500;
 }
 
-.button_area{align-items: center; border-bottom:1px solid #ECECEC;display: flex; justify-content: center;padding:0px 0 30px;}
-.button_area .btn_link{display:inline-block;padding:13.5px 10px;background-color:#23C164;border-radius:6px;font-size:16px;font-weight:700;line-height:23px;color:#fff;text-align:center;cursor:pointer;min-width:300px;}
+.button_area{border-bottom:1px solid #ECECEC;padding:0px 0 30px;}
+.button_area .btn_link{display:block;padding:13.5px 10px;background-color:#23C164;border-radius:6px;font-size:16px;font-weight:700;line-height:23px;color:#fff;text-align:center;cursor:pointer;min-width:300px;}
 
 .content .text_link{
     font-size: 16px; font-weight: 400; overflow:hidden; word-wrap:break-word;
@@ -51,12 +49,9 @@ tr td img{
     height: 344px;
 }
 .footer{
-    align-items: center;
-    display: flex;
     height: 150px;
     margin:35px 0;
     width: 600px;
-    flex-direction: column;
 }
 .footer .help{
     color:#A7A7A7;
