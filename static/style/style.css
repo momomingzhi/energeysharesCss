@@ -8,7 +8,7 @@ body{background-color:#fff;}
 
 /* reset */
 
-table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:600px; height:773px;background-color:#fff;margin:0 auto;}
+table{border-collapse:collapse;width:600px; height:773px;background-color:#fff;margin:0 auto;}
 
 .mail_wrap{width:100%;}
 .mail{width:640px;margin:0 auto;}
@@ -20,12 +20,18 @@ table{border-collapse:collapse;border-spacing:0;table-layout:fixed;width:600px; 
     width: 600px;
 }
 table thead th{width:100%;}
-.body {
+talbe tbody tr td{
+
+    background-color: blue;
+}
+.context_wrapper {
     background-color: #CEEDFF;
+    border-collapse: collapse;
+    padding-top: 2px;
 }
 
 .content{
-    background-color:#fff;margin:24px auto;width:552px;height: 414px;
+    background-color:#fff;margin:0 auto;width:552px;height: 414px;
 }
 .content_detail{
     width:95%;height: 90%;background-color:#fff;margin:24px 0 0;
@@ -43,7 +49,9 @@ table thead th{width:100%;}
     font-weight: 500;
     padding:43px 0 0;
 }
-
+tbody{
+    border-collapse: collapse;
+}
 .button_area{border-bottom:1px solid #ECECEC;padding:0px 0 30px; width:100%;}
 .button_area .btn_link{display:block;padding:13.5px 15px;background-color:#23C164;border-radius:6px;font-size:16px;font-weight:700;line-height:23px;color:#fff;text-align:center;cursor:pointer;width:300px;margin:0 auto;}
 
@@ -51,7 +59,10 @@ table thead th{width:100%;}
     font-size: 16px; font-weight: 400; overflow:hidden; word-wrap:break-word;
 }
 .content .description{padding:30px 30px 83px;font-size:15px;color:#000;line-height:22px;}
-
+.content .content_img{
+    margin:20px 0 0;
+    width: 600px;
+}
 
 tr td img{
     width: 600px;
@@ -61,10 +72,11 @@ tr td img{
     height: 150px;
     margin:35px 0;
     width: 600px;
+    background-color: #fff;
 }
 .footer .help{
     color:#A7A7A7;
-    margin: 31.99px 0;
+    margin: 31.99px auto;
     height: 44px;
     font-weight: 400;
     font-size: 14px;
@@ -79,4 +91,6 @@ tr td img{
     font-size: 14px;
 
 }
+.background{
+    width: 600px;
 }
