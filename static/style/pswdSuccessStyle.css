@@ -1,0 +1,213 @@
+@charset 'utf-8';
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
+
+/* body */
+body {
+  background-color: #fff;
+}
+
+/* display / width / height / padding / background-color / font-size / color / font-weight / text-align / line-height(%) / vertical-align */
+
+/* reset */
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+  height: 552px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.mail {
+  width: 780px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  padding-top: 91px;
+  height: 785px;
+}
+tbody {
+  border-collapse: collapse;
+}
+.logo {
+  margin: 40px auto 0 auto;
+  width: 100%;
+  height: 21px;
+}
+.logos {
+  width: 195px;
+  height: 21px;
+  margin: 0 auto;
+  display: block;
+}
+a {
+  text-decoration-line: none;
+}
+table thead th {
+  width: 100%;
+}
+.content {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 552px;
+  height: 410px;
+  border: 1px solid;
+}
+.content_detail {
+  width: 95%;
+  height: 90%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.content_box {
+  width: 95%;
+  margin: 0 auto;
+}
+.lock_key {
+  width: 50%;
+  height: 225px;
+  margin: 0 auto;
+  display: block;
+}
+.text {
+  font-family: "Recoleta" !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #383838;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin: 2px 0 0;
+}
+.description_top {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #525252;
+  margin: 0;
+}
+.description_bottom {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525252;
+  text-align: center;
+  margin: 0;
+}
+.hi_name {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 43px 0 0;
+}
+.button_area {
+  padding: 0px 0 30px;
+  width: 100%;
+  margin: 33px 0 0;
+}
+.button_area .btn_link {
+  background-color: #23c164;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  letter-spacing: -0.03em;
+  text-align: center;
+  cursor: pointer;
+  width: 250px;
+  height: 48px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.bottom_area {
+  margin-top: 40px;
+}
+.bottom_area .password {
+  color: #67acff;
+  margin: 0;
+}
+.bottom_area .noemail {
+  color: #363636;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 160%;
+  margin-top: 24px;
+  margin: 0;
+}
+.bottom_area .last {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  margin: 0;
+}
+.content .text_link {
+  font-size: 16px;
+  font-weight: 400;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.content .description {
+  padding: 30px 30px 83px;
+  font-size: 15px;
+  color: #000;
+  line-height: 22px;
+}
+.content .content_img {
+  margin: 20px 0 0;
+  width: 600px;
+}
+
+tr td img {
+  width: 600px;
+  height: 344px;
+}
+.footer {
+  height: 50px;
+  margin: 38px auto 0 auto;
+}
+.footer .img {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+}
+.img + .img {
+  margin-left: 20px;
+}
+.footer_img {
+  text-align: center;
+}
+.footer .facebook {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin: 0 auto;
+  display: block;
+}
+.copy_right {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #a7a7a7;
+}
+.background {
+  width: 600px;
+}
