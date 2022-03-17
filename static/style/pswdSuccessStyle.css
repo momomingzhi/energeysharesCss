@@ -9,7 +9,10 @@ body {
 /* display / width / height / padding / background-color / font-size / color / font-weight / text-align / line-height(%) / vertical-align */
 
 /* reset */
-
+@font-face {
+  font-family: "Recoleta";
+  src: url("../font/Recoleta-Medium.ttf") format("truetype");
+}
 table {
   border-collapse: collapse;
   width: 600px;
