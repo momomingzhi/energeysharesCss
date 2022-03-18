@@ -15,7 +15,7 @@ table {
   border-spacing: 0;
   table-layout: fixed;
   width: 680px;
-  height: 424px;
+  height: 511px;
   background-color: #fff;
 }
 
@@ -28,27 +28,20 @@ table {
   margin: 0 auto;
 }
 
-table thead tr {
-  width: 100%;
-}
-
 img {
   width: 111px;
   height: 24px;
 }
 .content {
   background-color: #fff;
-  display: flex;
-  margin: 24px auto;
-  justify-content: center;
+  margin: 24px auto 0 auto;
   width: 552px;
-  height: 300px;
+  height: 424px;
 }
 .content_detail {
   width: 95%;
-  height: 90%;
+  height: 100%;
   background-color: #fff;
-  margin: 24px 0 0;
 }
 .content .text {
   font-weight: 400;
@@ -69,9 +62,7 @@ h3 {
 a {
   text-decoration-line: none;
 }
-.button_area {
-  display: flex;
-}
+
 .button_area .btn_link {
   display: inline-block;
   background-color: #67acff;
@@ -100,22 +91,28 @@ a {
 }
 
 .footer {
-  display: flex;
   background: rgba(228, 236, 247, 0.2);
-  flex-direction: column;
   width: 680px;
   height: 87px;
-  justify-content: center;
 }
-.footer .text {
-  color: #888888;
+.footer_content {
+  margin: 0 0 0 30px;
+  border: 0.1px solid rgba(228, 236, 247, 0.2);
+  width: 80%;
+}
+.footer_text {
+  font-family: "NanumSquare";
+  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  margin: 0 0 9px 30px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -1px;
+  color: #888888;
+  margin: 25px 0 9px 0;
 }
 .footer .copyRight {
   color: #888888;
   font-weight: 400;
   font-size: 14px;
-  margin: 0 0 0 30px;
+  margin: 0;
 }
