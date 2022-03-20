@@ -61,7 +61,6 @@ table thead th {
 }
 .content_box {
   width: 480px;
-
   margin: 0 auto;
 }
 .table_container {
@@ -97,8 +96,10 @@ table thead th {
   letter-spacing: 0.01em;
   color: #383838;
   text-align: center;
-  display: block;
-  margin: 0;
+  width: 182px;
+  height: 54px;
+  padding-top: 48px;
+  margin: 0 auto;
 }
 .card_description {
   font-family: "Inter";
@@ -265,14 +266,12 @@ table thead th {
 }
 .button_area .btn_link {
   background-color: #23c164;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 50px;
   color: #fff;
   letter-spacing: -0.03em;
   text-align: center;
