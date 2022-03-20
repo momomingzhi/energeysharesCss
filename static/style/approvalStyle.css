@@ -25,6 +25,7 @@ table {
   margin: 0 auto;
   background-color: #e5e5e5;
   padding-top: 90px;
+
   height: 751px;
 }
 tbody {
@@ -70,34 +71,30 @@ table thead th {
 }
 
 .img_container {
-  position: relative;
-  width: 500px;
-  height: 222.43px;
+  width: 480px;
+  height: 204px;
   margin: 25.81px auto 0 auto;
+  background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/approvalbackground.png);
+  background-size: 480px 204px;
+  background-repeat: no-repeat;
 }
 .img_logo {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  padding-top: 40px;
   width: 172px;
   height: 54px;
 }
 .img_logo_in {
   object-fit: contain;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 172px;
   height: 54px;
 }
 .img_thumb {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   margin: 0 auto;
+  width: 90px;
+  height: 90px;
+}
+.img_thumb_in {
   width: 90px;
   height: 90px;
 }
