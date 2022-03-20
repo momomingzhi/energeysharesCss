@@ -78,10 +78,12 @@ table thead th {
   height: 222.43px;
   /* margin: 25.81px auto 0 auto; */
   display: block;
+  position: absolute;
 }
 .welcomeImg1 {
   width: 480px;
   height: 310px;
+  position: absolute;
   margin: 0 auto 0 auto;
   display: block;
 }
@@ -128,7 +130,7 @@ table thead th {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  position: absolute;
   width: 344px;
 }
 .welcome_description_2 {
@@ -142,7 +144,7 @@ table thead th {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  position: absolute;
   width: 344px;
 }
 .welcome_description_3 {
@@ -156,13 +158,11 @@ table thead th {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  position: absolute;
   width: 344px;
 }
 .img_container {
-  background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/approvalbackground.png);
-  background-size: 480px 310px;
-  background-repeat: no-repeat;
+  position: relative;
   width: 480px;
   height: 310px;
   margin: 37px auto 0 auto;
