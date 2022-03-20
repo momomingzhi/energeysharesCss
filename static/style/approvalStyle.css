@@ -24,8 +24,8 @@ table {
   width: 780px;
   margin: 0 auto;
   background-color: #e5e5e5;
-  padding-top: 91px;
-  height: 785px;
+  padding-top: 90px;
+  height: 751px;
 }
 tbody {
   border-collapse: collapse;
@@ -83,9 +83,18 @@ table thead th {
   width: 172px;
   height: 54px;
 }
+.img_logo_in {
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 172px;
+  height: 54px;
+}
 .img_thumb {
   position: absolute;
-  top: 64%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0 auto;
@@ -134,7 +143,7 @@ table thead th {
 .button_area {
   padding: 0px 0 30px;
   width: 100%;
-  margin: 33px 0 0;
+  margin: 30px 0 0;
 }
 .button_area .btn_link {
   background-color: #23c164;
@@ -203,7 +212,7 @@ tr td img {
 }
 .footer {
   height: 50px;
-  margin: 38px auto 0 auto;
+  margin: 32px auto 0 auto;
 }
 .footer .img {
   width: 24px;
