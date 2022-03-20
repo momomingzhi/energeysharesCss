@@ -13,10 +13,10 @@ body {
   font-family: "Recoleta";
   src: url("../font/Recoleta-Medium.ttf") format("truetype");
 }
-table {
+.table {
   border-collapse: collapse;
   width: 600px;
-  height: 608px;
+  height: 1174px;
   background-color: #fff;
   margin: 0 auto;
 }
@@ -24,16 +24,18 @@ table {
   width: 780px;
   margin: 0 auto;
   background-color: #f3f4f7;
-  padding-top: 91px;
-  height: 1340px;
+  padding-top: 90px;
+  padding-bottom: 169px;
+  height: 1207px;
 }
 tbody {
   border-collapse: collapse;
 }
 .logo {
-  margin: 40px auto 0 auto;
+  /* margin: 40px auto 0 auto; */
   width: 100%;
   height: 21px;
+  margin: 0 auto;
 }
 .logos {
   width: 195px;
@@ -49,18 +51,29 @@ table thead th {
   margin: 0 auto;
   width: 552px;
   height: 410px;
-  border: 1px solid;
 }
 .content_detail {
-  width: 95%;
-  height: 1060px;
+  width: 600px;
+  height: 1174px;
+
   background-color: #fff;
-  margin: 0 auto;
+  margin: 33px auto 0 auto;
 }
 .content_box {
   width: 480px;
+
   margin: 0 auto;
 }
+.table_container {
+  width: 480px;
+  margin: 37px auto 0 auto;
+  height: 310px;
+  background-color: yellow;
+  background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/welcomeImg.png);
+  background-size: 480px 310px;
+  background-repeat: no-repeat;
+}
+
 .lock_key {
   width: 500px;
   height: 222.43px;
@@ -72,11 +85,10 @@ table thead th {
   width: 480px;
   height: 310px;
   position: absolute;
-  margin: 15.23px auto 0 auto;
+  margin: 0 auto 0 auto;
   display: block;
 }
 .welcome {
-  position: absolute;
   font-family: "Recoleta";
   font-style: normal;
   font-weight: 600;
@@ -84,9 +96,9 @@ table thead th {
   line-height: 54px;
   letter-spacing: 0.01em;
   color: #383838;
-  top: 12%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  display: block;
+  margin: 0;
 }
 .card_description {
   font-family: "Inter";
@@ -96,15 +108,15 @@ table thead th {
   line-height: 160%;
   letter-spacing: -0.03em;
   color: #525252;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
+  margin: 11px auto 0 auto;
   width: 344px;
 }
 .card_description p {
   margin: 0 0 0;
   text-align: center;
+}
+.card_bold {
+  font-weight: bold;
 }
 .welcome_description {
   font-family: "Inter";
@@ -150,11 +162,15 @@ table thead th {
 }
 .img_container {
   position: relative;
-  width: 500px;
+  width: 480px;
   height: 310px;
-  margin: 25.81px auto 0 auto;
+  margin: 37px auto 0 auto;
 }
-
+.text_container {
+  width: 448px;
+  height: 78px;
+  margin: 26px auto 0 auto;
+}
 .text {
   font-family: "Inter";
   font-style: normal;
@@ -163,8 +179,8 @@ table thead th {
   line-height: 160%;
   letter-spacing: -0.01em;
   color: #363636;
+  margin: 0;
   /* text-align: center; */
-  margin: 26px auto 0 auto;
 }
 .link {
   font-family: "Inter";
@@ -191,7 +207,7 @@ table thead th {
   line-height: 30px;
   letter-spacing: -0.03em;
   color: #2878fa;
-  margin: 26.83px 0 0;
+  margin: 28px 0 0;
   text-align: center;
 }
 .description_bottom {
@@ -203,11 +219,11 @@ table thead th {
   letter-spacing: -0.01em;
   color: #363636;
   text-align: center;
-  margin: 0;
+  margin: 9px 0 0;
 }
 .welcomImg3 {
   display: block;
-  margin: 20px auto 4px auto;
+  margin: 20px auto 6px auto;
   width: 480px;
   height: 150px;
 }
@@ -221,7 +237,7 @@ table thead th {
   line-height: 160%;
   letter-spacing: -0.03em;
   color: #363636;
-  margin: 25px 0 0;
+  margin: 24px 0 0;
 }
 .bottomList span {
   font-family: "Inter";
@@ -245,9 +261,7 @@ table thead th {
 .button_area {
   padding: 0px 0 30px;
   width: 100%;
-  margin: 33px 0 0;
-  position: absolute;
-  top: 60%;
+  margin: 28px 0 0;
 }
 .button_area .btn_link {
   background-color: #23c164;
@@ -316,7 +330,7 @@ tr td img {
 }
 .footer {
   height: 50px;
-  margin: 38px auto 0 auto;
+  margin: 54.47px auto 0 auto;
 }
 .footer .img {
   width: 24px;
@@ -341,372 +355,6 @@ a {
 }
 .copy_right {
   font-family: "Inter";
-  @charset 'utf-8';
-  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
-
-  /* body */
-  body {
-    background-color: #fff;
-  }
-
-  /* display / width / height / padding / background-color / font-size / color / font-weight / text-align / line-height(%) / vertical-align */
-
-  /* reset */
-  @font-face {
-    font-family: "Recoleta";
-    src: url("../font/Recoleta-Medium.ttf") format("truetype");
-  }
-  table {
-    border-collapse: collapse;
-    width: 600px;
-    height: 1174px;
-    background-color: #fff;
-    margin: 0 auto;
-  }
-  .mail {
-    width: 780px;
-    margin: 0 auto;
-    background-color: #f3f4f7;
-    padding-top: 90px;
-    padding-bottom: 169px;
-    height: 1207px;
-  }
-  tbody {
-    border-collapse: collapse;
-  }
-  .logo {
-    /* margin: 40px auto 0 auto; */
-    width: 100%;
-    height: 21px;
-    margin: 0 auto;
-  }
-  .logos {
-    width: 195px;
-    height: 21px;
-    margin: 0 auto;
-    display: block;
-  }
-  table thead th {
-    width: 100%;
-  }
-  .content {
-    background-color: #fff;
-    margin: 0 auto;
-    width: 552px;
-    height: 410px;
-  }
-  .content_detail {
-    width: 600px;
-    height: 1174px;
-
-    background-color: #fff;
-    margin: 33px auto 0 auto;
-  }
-  .content_box {
-    width: 480px;
-
-    margin: 0 auto;
-  }
-  .lock_key {
-    width: 500px;
-    height: 222.43px;
-    /* margin: 25.81px auto 0 auto; */
-    display: block;
-    position: absolute;
-  }
-  .welcomeImg1 {
-    width: 480px;
-    height: 310px;
-    position: absolute;
-    margin: 0 auto 0 auto;
-    display: block;
-  }
-  .welcome {
-    position: absolute;
-    font-family: "Recoleta";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 54px;
-    letter-spacing: 0.01em;
-    color: #383838;
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .card_description {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: -0.03em;
-    color: #525252;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 344px;
-  }
-  .card_description p {
-    margin: 0 0 0;
-    text-align: center;
-  }
-  .card_bold {
-    font-weight: bold;
-  }
-  .welcome_description {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: -0.03em;
-    color: #525252;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 344px;
-  }
-  .welcome_description_2 {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: -0.03em;
-    color: #525252;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 344px;
-  }
-  .welcome_description_3 {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: -0.03em;
-    color: #525252;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 344px;
-  }
-  .img_container {
-    position: relative;
-    width: 480px;
-    height: 310px;
-    margin: 37px auto 0 auto;
-  }
-  .text_container {
-    width: 448px;
-    height: 78px;
-    margin: 26px auto 0 auto;
-  }
-  .text {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: -0.01em;
-    color: #363636;
-    margin: 0;
-    /* text-align: center; */
-  }
-  .link {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: -0.01em;
-    color: #363636;
-    /* text-align: center; */
-    margin: 0;
-  }
-  .welcomImg2 {
-    display: block;
-    margin: 28px auto 0 auto;
-    width: 116px;
-    height: 10px;
-  }
-  .description_top {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: -0.03em;
-    color: #2878fa;
-    margin: 28px 0 0;
-    text-align: center;
-  }
-  .description_bottom {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 140%;
-    letter-spacing: -0.01em;
-    color: #363636;
-    text-align: center;
-    margin: 9px 0 0;
-  }
-  .welcomImg3 {
-    display: block;
-    margin: 20px auto 6px auto;
-    width: 480px;
-    height: 150px;
-  }
-  .bottomList {
-  }
-  .bottomList p {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 160%;
-    letter-spacing: -0.03em;
-    color: #363636;
-    margin: 24px 0 0;
-  }
-  .bottomList span {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 150%;
-    letter-spacing: -0.03em;
-    color: #363636;
-    display: block;
-    margin: 8px 0 0;
-  }
-  .bottomList .bottomClick {
-    margin: 8px 0 0;
-  }
-  .hi_name {
-    font-size: 22px;
-    font-weight: 500;
-    padding: 43px 0 0;
-  }
-  .button_area {
-    padding: 0px 0 30px;
-    width: 100%;
-    margin: 33px 0 0;
-    position: absolute;
-    top: 60%;
-  }
-  .button_area .btn_link {
-    background-color: #23c164;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-    color: #fff;
-    letter-spacing: -0.03em;
-    text-align: center;
-    cursor: pointer;
-    width: 250px;
-    height: 48px;
-    margin: 0 auto;
-    border-radius: 6px;
-  }
-  .bottom_area {
-    margin-top: 40px;
-  }
-  .bottom_area .password {
-    color: #67acff;
-    margin: 0;
-  }
-  .bottom_area .noemail {
-    color: #363636;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 160%;
-    margin-top: 24px;
-    margin: 0;
-  }
-  .bottom_area .last {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 140%;
-    margin: 0;
-  }
-  .content .text_link {
-    font-size: 16px;
-    font-weight: 400;
-    overflow: hidden;
-    word-wrap: break-word;
-  }
-  .content .description {
-    padding: 30px 30px 83px;
-    font-size: 15px;
-    color: #000;
-    line-height: 22px;
-  }
-  .content .content_img {
-    margin: 20px 0 0;
-    width: 600px;
-  }
-
-  tr td img {
-    width: 600px;
-    height: 344px;
-  }
-  .footer {
-    height: 50px;
-    margin: 54.47px auto 0 auto;
-  }
-  .footer .img {
-    width: 24px;
-    height: 24px;
-    margin: 0 auto;
-  }
-  .img + .img {
-    margin-left: 20px;
-  }
-  .footer_img {
-    text-align: center;
-  }
-  a {
-    text-decoration-line: none;
-  }
-  .footer .facebook {
-    height: 50px;
-    width: 50px;
-    background-color: red;
-    margin: 0 auto;
-    display: block;
-  }
-  .copy_right {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: -0.03em;
-    margin: 31.89px 0 0;
-    color: #a7a7a7;
-  }
-  .background {
-    width: 600px;
-  }
-
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
