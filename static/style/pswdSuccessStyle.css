@@ -118,7 +118,7 @@ table thead th {
 }
 .button_area .btn_link {
   background-color: #23c164;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   font-family: "Inter";
