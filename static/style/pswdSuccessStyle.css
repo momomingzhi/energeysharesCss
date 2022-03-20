@@ -9,11 +9,14 @@ body {
 /* display / width / height / padding / background-color / font-size / color / font-weight / text-align / line-height(%) / vertical-align */
 
 /* reset */
-
+@font-face {
+  font-family: "Recoleta";
+  src: url("../font/Recoleta-Medium.ttf") format("truetype");
+}
 table {
   border-collapse: collapse;
   width: 600px;
-  height: 748px;
+  height: 552px;
   background-color: #fff;
   margin: 0 auto;
 }
@@ -22,7 +25,7 @@ table {
   margin: 0 auto;
   background-color: #e5e5e5;
   padding-top: 91px;
-  height: 900px;
+  height: 785px;
 }
 tbody {
   border-collapse: collapse;
@@ -38,23 +41,18 @@ tbody {
   margin: 0 auto;
   display: block;
 }
-table thead th {
-  width: 100%;
-}
 a {
   text-decoration-line: none;
+}
+table thead th {
+  width: 100%;
 }
 .content {
   background-color: #fff;
   margin: 0 auto;
   width: 552px;
-  height: 414px;
+  height: 410px;
   border: 1px solid;
-}
-hr {
-  color: rgba(232, 232, 232, 1);
-  width: 480px;
-  border: solid 1px;
 }
 .content_detail {
   width: 95%;
@@ -65,32 +63,38 @@ hr {
 .content_box {
   width: 95%;
   margin: 0 auto;
-  /* border-bottom: 1px solid rgba(232, 232, 232, 1); */
 }
 .lock_key {
-  width: 100%;
+  width: 50%;
   height: 225px;
   margin: 0 auto;
+  display: block;
 }
 .text {
+  font-family: "Recoleta" !important;
+  font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  color: #383838;
-  font-family: Recoleta;
-  font-style: normal;
   line-height: 33px;
+  color: #383838;
   text-align: center;
+  letter-spacing: 0.01em;
   margin: 2px 0 0;
 }
+.description_container {
+  margin: 16px 0 0;
+}
 .description_top {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #525252;
+
   text-align: center;
-  margin: 17px 0 0;
+  letter-spacing: -0.03em;
+  color: #525252;
+  margin: 0;
 }
 .description_bottom {
   font-family: Inter;
@@ -113,41 +117,33 @@ hr {
   margin: 33px 0 0;
 }
 .button_area .btn_link {
-  display: block;
-  padding: 13.5px 0;
   background-color: #23c164;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 23px;
-  color: #fff;
-  text-align: center;
-  cursor: pointer;
-  width: 250px;
-  margin: 0 auto;
-}
-.bottom_area {
-  margin: 40px 0 0 50px;
-}
-.bottom_area .passwor_top {
-  margin: 0 0 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 160%;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
   letter-spacing: -0.03em;
-  color: #363636;
+  text-align: center;
+  cursor: pointer;
+  width: 250px;
+  height: 48px;
+  margin: 0 auto;
+  border-radius: 6px;
 }
-.bottom_area .passwor_bottom {
-  margin: 0 0 24px 0;
+.bottom_area {
+  margin-top: 40px;
 }
 .bottom_area .password {
   color: #67acff;
   margin: 0;
 }
 .bottom_area .noemail {
-  color: #1b1616;
+  color: #363636;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -215,7 +211,7 @@ tr td img {
   line-height: 22px;
   text-align: center;
   letter-spacing: -0.03em;
-  margin: 31.89px 0 0;
+
   color: #a7a7a7;
 }
 .background {
