@@ -21,11 +21,11 @@ table {
   margin: 0 auto;
 }
 .mail {
-  width: 780px;
+  max-width: 780px;
+  min-width: 320px;
   margin: 0 auto;
   background-color: #e5e5e5;
-  padding-top: 90px;
-  border: 1px solid;
+  /* padding-top: 90px; */
   height: 751px;
 }
 
@@ -51,6 +51,7 @@ table thead th {
   margin: 0 auto;
   width: 552px;
   height: 410px;
+  border: 1px solid;
 }
 .content_detail {
   width: 95%;
@@ -72,7 +73,7 @@ table thead th {
 
 .img_container {
   max-width: 480px;
-  min-width: 216px;
+  min-width: 300px;
   height: 204px;
   margin: 25.81px auto 0 auto;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/approvalbackground.png);
