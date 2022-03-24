@@ -61,7 +61,8 @@ table thead th {
   margin: 37px auto 0 auto;
   height: 310px;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/welcomeImg.png);
-  background-size: 100% 320px;
+  background-size: auto 320px;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
@@ -103,9 +104,8 @@ table thead th {
   letter-spacing: -0.03em;
   color: #525252;
   margin: 11px auto 0 auto;
-  max-width: 300px;
-  min-width: 236px;
-  border: 1px solid;
+  max-width: 317px;
+  min-width: 280px;
 }
 .card_description p {
   margin: 0 0 0;
@@ -187,7 +187,6 @@ table thead th {
   letter-spacing: -0.01em;
   color: #363636;
   width: 100%;
-  border: 1px solid;
   height: auto;
   word-wrap: break-word;
   margin: 0 0 20px 0;
@@ -226,7 +225,8 @@ table thead th {
   width: 480px;
   height: 150px;
 }
-
+.bottomList {
+}
 .bottomList p {
   font-family: "Inter";
   font-style: normal;
