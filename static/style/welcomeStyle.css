@@ -15,7 +15,7 @@ body {
 }
 .table {
   border-collapse: collapse;
-  width: 600px;
+  width: 560px;
   height: 1174px;
   background-color: #fff;
   margin: 0 auto;
@@ -48,17 +48,19 @@ table thead th {
   width: 100%;
 }
 .content_detail {
-  width: 95%;
+  width: 560px;
   height: 1174px;
   background-color: #fff;
   margin: 33px auto 0 auto;
 }
 .content_box {
-  width: 95%;
+  max-width: 480px;
+  min-width: 300px;
   margin: 0 auto;
+  border: 1px solid;
 }
 .table_container {
-  margin: 37px auto 0 auto;
+  margin: 37px 0 0 0;
   height: 310px;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/welcomeImg.png);
   background-size: auto 320px;
@@ -163,9 +165,9 @@ table thead th {
   margin: 37px auto 0 auto;
 }
 .text_container {
-  width: 448px;
+  width: 480px;
   height: 78px;
-  margin: 26px auto 0 auto;
+  margin: 26px auto 0 0;
 }
 .text {
   font-family: "Inter";
@@ -186,7 +188,8 @@ table thead th {
   /* line-height: 100%; */
   letter-spacing: -0.01em;
   color: #363636;
-  width: 100%;
+  width: 448px;
+  border: 1px solid;
   height: auto;
   word-wrap: break-word;
   margin: 0 0 20px 0;
@@ -226,6 +229,7 @@ table thead th {
   height: 150px;
 }
 .bottomList {
+  border: 1px solid;
 }
 .bottomList p {
   font-family: "Inter";
