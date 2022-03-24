@@ -25,7 +25,6 @@ body {
   min-width: 320px;
   margin: 0 auto;
   background-color: #f3f4f7;
-  padding-top: 90px;
   padding-bottom: 169px;
   height: 1207px;
 }
@@ -36,6 +35,7 @@ tbody {
   /* margin: 40px auto 0 auto; */
   width: 100%;
   height: 21px;
+  padding: 39px 0 30px 0;
   margin: 0 auto;
 }
 .logos {
@@ -66,12 +66,12 @@ table thead th {
 }
 .table_container {
   max-width: 480px;
-  min-width: 280px;
+  min-width: 300px;
   margin: 37px auto 0 auto;
   height: 310px;
   background-color: yellow;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/welcomeImg.png);
-  background-size: 480px 310px;
+  background-size: 480px 300px;
   background-repeat: no-repeat;
 }
 
