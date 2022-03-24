@@ -16,7 +16,7 @@ body {
 table {
   border-collapse: collapse;
   width: 600px;
-  height: 608px;
+  height: 522px;
   background-color: #fff;
   margin: 0 auto;
 }
@@ -24,8 +24,8 @@ table {
   max-width: 780px;
   min-width: 320px;
   margin: 0 auto;
-  background-color: #e5e5e5;
-  height: 751px;
+  background-color: #f3f4f7;
+  height: 772px;
 }
 
 tbody {
@@ -45,13 +45,6 @@ tbody {
 }
 table thead th {
   width: 100%;
-}
-.content {
-  background-color: #fff;
-  margin: 0 auto;
-  width: 552px;
-  height: 410px;
-  border: 1px solid;
 }
 .content_detail {
   width: 95%;
