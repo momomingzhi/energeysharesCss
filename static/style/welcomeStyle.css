@@ -66,12 +66,12 @@ table thead th {
 }
 .table_container {
   max-width: 480px;
-  min-width: 300px;
+  min-width: 320px;
   margin: 37px auto 0 auto;
   height: 310px;
   background-color: yellow;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/welcomeImg.png);
-  background-size: 480px 300px;
+  background-size: 480px 320px;
   background-repeat: no-repeat;
 }
 
