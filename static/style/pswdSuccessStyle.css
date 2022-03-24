@@ -63,8 +63,9 @@ table thead th {
 .lock_key_container {
   height: 225px;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/lockcircle.png);
-  background-size: 100% 225px;
+  background-size: 50% 225px;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   margin: 0 auto;
 }
 .lock_key {
@@ -202,7 +203,6 @@ tr td img {
 .footer .facebook {
   height: 50px;
   width: 50px;
-  background-color: red;
   margin: 0 auto;
   display: block;
 }
