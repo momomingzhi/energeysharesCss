@@ -194,7 +194,10 @@ table thead th {
   line-height: 160%;
   letter-spacing: -0.01em;
   color: #363636;
-  /* text-align: center; */
+  min-width: 299px;
+  max-width: 448px;
+  height: auto;
+  word-wrap: break-word;
   margin: 0;
 }
 .welcomImg2 {
@@ -202,7 +205,6 @@ table thead th {
   margin: 28px auto 0 auto;
   width: 116px;
   height: 10px;
-  border: 1px solid;
 }
 .description_top {
   font-family: "Inter";
