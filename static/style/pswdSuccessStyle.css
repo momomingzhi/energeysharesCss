@@ -125,14 +125,11 @@ table thead th {
 }
 .button_area .btn_link {
   background-color: #23c164;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 48px;
   color: #fff;
   letter-spacing: -0.03em;
   text-align: center;
@@ -142,6 +139,7 @@ table thead th {
   margin: 0 auto;
   border-radius: 6px;
 }
+
 .bottom_area {
   margin-top: 40px;
 }
