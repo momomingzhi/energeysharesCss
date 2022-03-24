@@ -16,7 +16,7 @@ body {
 table {
   border-collapse: collapse;
   width: 560px;
-  height: 1128px;
+  height: 1150px;
   background-color: #fff;
   margin: 0 auto;
 }
@@ -25,8 +25,8 @@ table {
   min-width: 320px;
   margin: 0 auto;
   background-color: #f3f4f7;
-  height: 1207px;
-  padding-bottom: 259px;
+  height: 1240px;
+  padding-bottom: 215px;
 }
 
 tbody {
@@ -49,13 +49,14 @@ table thead th {
 }
 .content_detail {
   width: 95%;
-  height: 1088px;
+  height: 1090px;
   background-color: #fff;
   margin: 0 auto;
 }
 .content_box {
-  width: 480px;
-  border: 1px solid;
+  max-width: 480px;
+  min-width: 320px;
+
   margin: 0 auto;
 }
 .table_container {
@@ -125,7 +126,6 @@ table thead th {
   letter-spacing: -0.01em;
   color: #363636;
   width: 448px;
-  border: 1px solid;
   height: auto;
   word-wrap: break-word;
   margin: 0 0 20px 0;
@@ -166,7 +166,6 @@ table thead th {
   height: 150px;
 }
 .bottomList {
-  border: 1px solid;
 }
 .bottomList p {
   font-family: "Inter";
@@ -262,7 +261,7 @@ tr td img {
 }
 .footer {
   height: 50px;
-  margin: 32px auto 0 auto;
+  margin: 100.47px auto 0 auto;
 }
 .footer .img {
   width: 24px;
