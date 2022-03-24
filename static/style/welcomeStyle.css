@@ -13,10 +13,10 @@ body {
   font-family: "Recoleta";
   src: url("../font/Recoleta-Medium.ttf") format("truetype");
 }
-.table {
+table {
   border-collapse: collapse;
   width: 600px;
-  height: 1174px;
+  height: 748px;
   background-color: #fff;
   margin: 0 auto;
 }
@@ -24,19 +24,17 @@ body {
   max-width: 780px;
   min-width: 320px;
   margin: 0 auto;
-  background-color: #f3f4f7;
-  padding-bottom: 169px;
-  height: 1207px;
+  background-color: #e5e5e5;
+  height: 900px;
 }
 tbody {
   border-collapse: collapse;
 }
 .logo {
-  /* margin: 40px auto 0 auto; */
+  margin: 0 auto 0 auto;
   width: 100%;
   height: 21px;
-  padding: 39px 0 30px 0;
-  margin: 0 auto;
+  padding: 40px 0 30px 0;
 }
 .logos {
   width: 195px;
@@ -47,218 +45,73 @@ tbody {
 table thead th {
   width: 100%;
 }
+a {
+  text-decoration-line: none;
+}
 .content {
   background-color: #fff;
   margin: 0 auto;
   width: 552px;
-  height: 410px;
+  height: 414px;
+  border: 1px solid;
+}
+hr {
+  color: rgba(232, 232, 232, 1);
+  width: 480px;
+  border: solid 1px;
 }
 .content_detail {
   width: 95%;
-  height: 1174px;
-
+  height: 90%;
   background-color: #fff;
-  margin: 33px auto 0 auto;
+  margin: 0 auto;
 }
 .content_box {
-  width: 480px;
+  width: 95%;
   margin: 0 auto;
-}
-.table_container {
-  max-width: 480px;
-  min-width: 320px;
-  margin: 37px auto 0 auto;
-  height: 310px;
-
-  background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/welcomeImg.png);
-  background-size: 100% 320px;
-  background-repeat: no-repeat;
-}
-
-.lock_key {
-  width: 500px;
-  height: 222.43px;
-  /* margin: 25.81px auto 0 auto; */
-  display: block;
-  position: absolute;
-}
-.welcomeImg1 {
-  width: 480px;
-  height: 310px;
-  position: absolute;
-  margin: 0 auto 0 auto;
-  display: block;
-}
-.welcome {
-  font-family: "Recoleta";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 54px;
-  letter-spacing: 0.01em;
-  color: #383838;
-  text-align: center;
-  max-width: 480px;
-  min-width: 320px;
-  height: 54px;
-  padding-top: 48px;
-  margin: 0 auto;
-}
-.card_description {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: -0.03em;
-  color: #525252;
-  margin: 11px auto 0 auto;
-  width: 344px;
-}
-.card_description p {
-  margin: 0 0 0;
-  text-align: center;
-}
-.card_bold {
-  font-weight: bold;
-}
-.welcome_description {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: -0.03em;
-  color: #525252;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 344px;
-}
-.welcome_description_2 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: -0.03em;
-  color: #525252;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 344px;
-}
-.welcome_description_3 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: -0.03em;
-  color: #525252;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 344px;
+  /* border-bottom: 1px solid rgba(232, 232, 232, 1); */
 }
 .img_container {
-  position: relative;
-  width: 480px;
-  height: 310px;
-  margin: 37px auto 0 auto;
+  max-width: 480px;
+  min-width: 300px;
+  height: 225px;
+  margin: 20px auto 0 auto;
 }
-.text_container {
-  width: 448px;
-  height: 78px;
-  margin: 26px auto 0 auto;
+.lock_key {
+  max-width: 480px;
+  min-width: 320px;
+  height: 225px;
+  margin: 0 auto;
 }
 .text {
-  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  color: #383838;
+  font-family: "Recoleta" !important;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: -0.01em;
-  color: #363636;
-  margin: 0;
-  /* text-align: center; */
-}
-.link {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: -0.01em;
-  color: #363636;
-  min-width: 299px;
-  max-width: 448px;
-  height: auto;
-  word-wrap: break-word;
-  margin: 0;
-}
-.welcomImg2 {
-  display: block;
-  margin: 28px auto 0 auto;
-  width: 116px;
-  height: 10px;
+  line-height: 33px;
+  text-align: center;
+  margin: 4px 0 0;
 }
 .description_top {
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
-  letter-spacing: -0.03em;
-  color: #2878fa;
-  margin: 28px 0 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525252;
   text-align: center;
+  margin: 17px 0 0;
 }
 .description_bottom {
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 140%;
-  letter-spacing: -0.01em;
-  color: #363636;
-  text-align: center;
-  margin: 9px 0 0;
-}
-.welcomImg3 {
-  display: block;
-  margin: 20px auto 6px auto;
-  width: 480px;
-  height: 150px;
-}
-.bottomList {
-}
-.bottomList p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: bold;
+  font-size: 16px;
   line-height: 160%;
-  letter-spacing: -0.03em;
-  color: #363636;
-  margin: 24px 0 0;
-}
-.bottomList span {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 150%;
-  letter-spacing: -0.03em;
-  color: #363636;
-  display: block;
-  margin: 8px 0 0;
-}
-.bottomList .bottomClick {
-  margin: 8px 0 0;
+  color: #525252;
+  text-align: center;
+  margin: 0;
 }
 .hi_name {
   font-size: 22px;
@@ -268,34 +121,44 @@ table thead th {
 .button_area {
   padding: 0px 0 30px;
   width: 100%;
-  margin: 28px 0 0;
+  margin: 33px 0 0;
 }
 .button_area .btn_link {
-  background-color: #23c164;
   display: block;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 50px;
+  padding: 13.5px 0;
+  background-color: #23c164;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
   color: #fff;
-  letter-spacing: -0.03em;
   text-align: center;
   cursor: pointer;
   width: 250px;
-  height: 48px;
   margin: 0 auto;
-  border-radius: 6px;
 }
 .bottom_area {
-  margin-top: 40px;
+  margin: 40px 0 0 50px;
+}
+.bottom_area .passwor_top {
+  margin: 0 0 4px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #363636;
+}
+.bottom_area .passwor_bottom {
+  margin: 0 0 24px 0;
 }
 .bottom_area .password {
   color: #67acff;
   margin: 0;
 }
 .bottom_area .noemail {
-  color: #363636;
+  color: #1b1616;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -335,7 +198,7 @@ tr td img {
 }
 .footer {
   height: 50px;
-  margin: 54.47px auto 0 auto;
+  margin: 38px auto 0 auto;
 }
 .footer .img {
   width: 24px;
@@ -347,9 +210,6 @@ tr td img {
 }
 .footer_img {
   text-align: center;
-}
-a {
-  text-decoration-line: none;
 }
 .footer .facebook {
   height: 50px;
