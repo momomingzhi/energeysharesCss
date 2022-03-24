@@ -16,7 +16,7 @@ body {
 table {
   border-collapse: collapse;
   width: 560px;
-  height: 552px;
+  height: 512px;
   background-color: #fff;
   margin: 0 auto;
 }
@@ -61,7 +61,7 @@ table thead th {
 .lock_key_container {
   height: 225px;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/lockcircle.png);
-  background-size: 100% 225px;
+  background-size: auto 225px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin: 0 auto;
@@ -86,7 +86,7 @@ table thead th {
   margin: 2px 0 0;
 }
 .description_container {
-  margin: 16px 0 0;
+  margin: 16px auto 0 auto;
 }
 .description_top {
   font-family: "Inter";
@@ -94,11 +94,13 @@ table thead th {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-
+  border: 1px solid;
+  max-width: 400px;
+  min-width: 300px;
   text-align: center;
   letter-spacing: -0.03em;
   color: #525252;
-  margin: 0;
+  margin: 0 auto;
 }
 .description_bottom {
   font-family: Inter;
