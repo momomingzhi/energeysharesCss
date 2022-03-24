@@ -25,15 +25,14 @@ table {
   min-width: 320px;
   margin: 0 auto;
   background-color: #e5e5e5;
-  padding-top: 91px;
   height: 785px;
 }
 tbody {
   border-collapse: collapse;
 }
 .logo {
-  margin: 45px auto 0 auto;
-  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 40px 0 30px 0;
   height: 21px;
 }
 .logos {
@@ -65,9 +64,15 @@ table thead th {
   width: 95%;
   margin: 0 auto;
 }
-.lock_key {
+.lock_key_container {
   max-width: 480px;
   min-width: 320px;
+  height: 225px;
+  margin: 0 auto;
+}
+.lock_key {
+  object-fit: contain;
+  max-width: 480px;
   height: 225px;
   margin: 0 auto;
   display: block;
