@@ -89,6 +89,9 @@ table thead th {
 }
 .description_container {
   margin: 16px 0 0;
+  max-width: 480px;
+  min-width: 300;
+  word-wrap: break-word;
 }
 .description_top {
   font-family: "Inter";
@@ -96,7 +99,6 @@ table thead th {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-
   text-align: center;
   letter-spacing: -0.03em;
   color: #525252;
