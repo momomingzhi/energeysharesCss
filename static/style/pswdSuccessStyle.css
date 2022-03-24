@@ -17,7 +17,6 @@ table {
   border-collapse: collapse;
   width: 560px;
   height: 552px;
-  border: 1px solid;
   background-color: #fff;
   margin: 0 auto;
 }
@@ -54,7 +53,6 @@ table thead th {
   height: 90%;
   background-color: #fff;
   margin: 0 auto;
-  border: 1px solid;
 }
 .content_box {
   width: 95%;
@@ -63,7 +61,7 @@ table thead th {
 .lock_key_container {
   height: 225px;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/lockcircle.png);
-  background-size: 50% 225px;
+  background-size: 100% 225px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin: 0 auto;
@@ -89,9 +87,6 @@ table thead th {
 }
 .description_container {
   margin: 16px 0 0;
-  max-width: 480px;
-  min-width: 300;
-  word-wrap: break-word;
 }
 .description_top {
   font-family: "Inter";
@@ -99,6 +94,7 @@ table thead th {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
+
   text-align: center;
   letter-spacing: -0.03em;
   color: #525252;
@@ -205,6 +201,7 @@ tr td img {
 .footer .facebook {
   height: 50px;
   width: 50px;
+  background-color: red;
   margin: 0 auto;
   display: block;
 }
