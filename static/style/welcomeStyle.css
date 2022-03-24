@@ -13,10 +13,10 @@ body {
   font-family: "Recoleta";
   src: url("../font/Recoleta-Medium.ttf") format("truetype");
 }
-.table {
+table {
   border-collapse: collapse;
   width: 560px;
-  height: 1174px;
+  height: 1128px;
   background-color: #fff;
   margin: 0 auto;
 }
@@ -25,18 +25,18 @@ body {
   min-width: 320px;
   margin: 0 auto;
   background-color: #f3f4f7;
-  padding-bottom: 259px;
   height: 1207px;
+  padding-bottom: 259px;
 }
+
 tbody {
   border-collapse: collapse;
 }
 .logo {
-  /* margin: 40px auto 0 auto; */
+  margin: 0 auto 0 auto;
   width: 100%;
   height: 21px;
   padding: 39px 0 30px 0;
-  margin: 0 auto;
 }
 .logos {
   width: 195px;
@@ -48,39 +48,23 @@ table thead th {
   width: 100%;
 }
 .content_detail {
-  width: 560px;
-  height: 1174px;
+  width: 95%;
+  height: 1088px;
   background-color: #fff;
-  margin: 33px auto 0 auto;
+  margin: 0 auto;
 }
 .content_box {
-  max-width: 480px;
-  min-width: 300px;
-  margin: 0 auto;
+  width: 480px;
   border: 1px solid;
+  margin: 0 auto;
 }
 .table_container {
-  margin: 37px 0 0 0;
+  margin: 0;
   height: 310px;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/welcomeImg.png);
-  background-size: auto 320px;
+  background-size: 100% 320px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-}
-
-.lock_key {
-  width: 500px;
-  height: 222.43px;
-  /* margin: 25.81px auto 0 auto; */
-  display: block;
-  position: absolute;
-}
-.welcomeImg1 {
-  width: 480px;
-  height: 310px;
-  position: absolute;
-  margin: 0 auto 0 auto;
-  display: block;
 }
 .welcome {
   font-family: "Recoleta";
@@ -116,54 +100,6 @@ table thead th {
 .card_bold {
   font-weight: bold;
 }
-.welcome_description {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: -0.03em;
-  color: #525252;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 344px;
-}
-.welcome_description_2 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: -0.03em;
-  color: #525252;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 344px;
-}
-.welcome_description_3 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: -0.03em;
-  color: #525252;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  width: 344px;
-}
-.img_container {
-  position: relative;
-  width: 480px;
-  height: 310px;
-  margin: 37px auto 0 auto;
-}
 .text_container {
   width: 480px;
   height: 78px;
@@ -194,6 +130,7 @@ table thead th {
   word-wrap: break-word;
   margin: 0 0 20px 0;
 }
+
 .welcomImg2 {
   display: block;
   margin: 28px auto 0 auto;
@@ -255,15 +192,10 @@ table thead th {
 .bottomList .bottomClick {
   margin: 8px 0 0;
 }
-.hi_name {
-  font-size: 22px;
-  font-weight: 500;
-  padding: 43px 0 0;
-}
 .button_area {
   padding: 0px 0 30px;
   width: 100%;
-  margin: 28px 0 0;
+  margin: 30px 0 0;
 }
 .button_area .btn_link {
   background-color: #23c164;
@@ -272,7 +204,7 @@ table thead th {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 50px;
+  line-height: 48px;
   color: #fff;
   letter-spacing: -0.03em;
   text-align: center;
@@ -330,7 +262,7 @@ tr td img {
 }
 .footer {
   height: 50px;
-  margin: 54.47px auto 0 auto;
+  margin: 32px auto 0 auto;
 }
 .footer .img {
   width: 24px;
