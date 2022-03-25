@@ -133,6 +133,8 @@ table thead th {
 
 .welcomImg2 {
   display: block;
+  width: 480px;
+  height: 10px;
   margin: 28px auto 0 auto;
   background: url(https://d31m1tu8xwrpkn.cloudfront.net/public/email_img/welcomline.png);
   background-size: 116px 10px;
